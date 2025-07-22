@@ -15,8 +15,6 @@ public class CustomerDemo {
 		c2.setCity("Chennai");
 		System.out.println(c2);
 		
-		
-
 	}
 
 }
