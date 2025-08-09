@@ -1,14 +1,15 @@
 package Day12.userdefinedexp;
 
-public class InvalidMarksException extends Exception{
+// Custom checked exception for invalid marks
+public class InvalidMarksException extends Exception {
 
-	public InvalidMarksException() {
-		super();
-	}
+    // Default constructor
+    public InvalidMarksException() {
+        super();
+    }
 
-	public InvalidMarksException(String message) {
-		super(message);
-	}
-
-	
+    // Constructor that accepts an error message
+    public InvalidMarksException(String message) {
+        super(message);
+    }
 }
